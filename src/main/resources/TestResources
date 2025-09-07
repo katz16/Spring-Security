@@ -1,0 +1,26 @@
+    {
+    "id":101,
+    "name":"Vikram",
+    "email":"vikram@gmail.com",
+    "username":"vikram123",
+    "password":"pass@1234",
+    "role":"Analyst"
+    }
+    {
+     "id":102,
+        "name":"John",
+        "email":"johndoe@hotmail.com",
+        "username":"johndoe",
+        "password":"pass@1234",
+        "role":"Supervisor"
+        }
+        {
+            "id":103,
+            "name":"Michael",
+            "email":"michaelcorleone@protonmail.com",
+            "username":"michael",
+            "password":"pass@456",
+            "role":"Manager"
+
+
+        }
