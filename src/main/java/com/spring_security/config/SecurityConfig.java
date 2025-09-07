@@ -18,8 +18,8 @@ public class SecurityConfig {
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
         http.authorizeHttpRequests(authz->authz
-                        /*.requestMatchers("/api/users/**").authenticated()*/
-                        .requestMatchers("/api/**").permitAll()
+                        .requestMatchers("/api/users/register").permitAll()
+                        .requestMatchers("/api/users/**").authenticated()
                         .anyRequest().permitAll()
 
                 )

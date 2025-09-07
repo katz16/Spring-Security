@@ -24,3 +24,13 @@
 
 
         }
+        {
+            "id":104,
+            "name":"Jack",
+            "email":"jackreacher@hotmail.com",
+            "username":"jreacher",
+            "password":"pass@456",
+            "role":"Analyst"
+
+
+        }

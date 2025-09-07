@@ -18,11 +18,9 @@ public class UserApi {
 
     @PostMapping("/register")
     public ResponseEntity<String> registerUser(@RequestBody  @Valid  UserDto dto){
-        System.out.println(dto);
-        System.out.println("password before encoding: " + dto.getPassword());
+
         dto.setPassword(passwordEncoder.encode(dto.getPassword()));
-        System.out.println("password after encoding: " + dto.getPassword());
-        System.out.println(dto);
+        
         userService.saveUser(dto);
         return ResponseEntity.ok("User registered successfully");
     }
